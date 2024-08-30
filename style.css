@@ -27,10 +27,10 @@ html{
 }
 
 .container {
-    width: 85%;
+    width: 97%;
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
 }
 
@@ -42,6 +42,7 @@ html{
     list-style: none;
     display: flex;
     gap: 20px;
+    align-items: center;
 }
 
 .nav-links li a {
@@ -54,6 +55,32 @@ html{
 .nav-links li a:hover {
     color: #ff7f50;
 }
+
+
+.navbar-button {
+    display: flex;
+  }
+  
+  .btn-auth {
+    background-color: #ff7f50; /* Orange color */
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    
+    transition: background-color 0.3s ease;
+  }
+  .nav-links li .btn-auth{
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .btn-auth:hover {
+    background-color: #e66a33; /* Darker orange for hover effect */
+    color: white;
+  }
+  
+  
 
 /* Hamburger for Mobile View */
 .hamburger {
@@ -114,6 +141,8 @@ html{
     }
 }
 
+
+
 /* Hero Section Styling */
 .hero-section {
     background-color: #eef4f9;
@@ -134,21 +163,11 @@ html{
     margin-bottom: 20px;
 }
 
-.features-list {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 15px;
+.hero-section p{
+    font-size: 18px;
+    color: #555;
     margin-bottom: 30px;
-}
-
-.features-list li {
-    background-color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    font-size: 16px;
+    line-height: 1.6;
 }
 
 .cta-btn {
@@ -277,3 +296,302 @@ html{
         font-size: 16px;
     }
 }
+
+
+
+/* Why NextStep Section */
+.why-section {
+    background-color: #eef4f9;
+    padding: 60px 0;
+    text-align: center;
+  }
+.why-section .container{
+    display: flex;
+    flex-direction: column;
+}
+  
+  .why-section h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 700;
+  }
+  
+  .why-description {
+    font-size: 18px;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    line-height: 1.6;
+  }
+  
+  .why-features {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    gap: 20px;
+  }
+  
+  .feature h3 {
+    font-size: 20px;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .separator {
+    width: 1px;
+    background-color: #ff7f50;
+    height: 50px;
+    margin: auto;
+  }
+  
+  /* Responsive Styling */
+  @media screen and (max-width: 768px) {
+    .why-features {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .separator {
+      display: none;
+    }
+  }
+
+
+  /* NEP 2020 Section Styling */
+.nep-section {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+    text-align: center;
+    
+}
+
+.nep-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.nep-section h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.nep-section p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.download-btn {
+    display: inline-block;
+    background-color: #ff7f50;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #e66a33;
+}
+
+/* Responsive Design for NEP Section */
+@media screen and (max-width: 768px) {
+    .nep-content {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .nep-section h2 {
+        font-size: 28px;
+    }
+
+    .nep-section p {
+        font-size: 16px;
+    }
+}
+
+
+
+
+  /* Partnership Section */
+.partnership-section {
+    background-color: #eef4f9;
+    padding: 60px 0;
+    text-align: center;
+  }
+
+  .partnership-section .container{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .partnership-section h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 700;
+  }
+  
+  .partnership-description {
+    font-size: 18px;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    line-height: 1.6;
+  }
+  
+  .partner-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .partner-logos img {
+    max-width: 150px;
+    height: auto;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .partner-logos {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .partner-logos img {
+      max-width: 100px;
+    }
+  }
+
+
+
+
+
+/* Footer Section Styling */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.footer-about,
+.footer-links,
+.footer-social {
+    flex: 1;
+}
+
+.footer-about h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #ff7f50;
+}
+
+.footer-about p {
+    font-size: 16px;
+    color: #ccc;
+    line-height: 1.6;
+}
+
+.footer-social{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-links h4,
+.footer-social h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-links ul li a:hover {
+    color: #ff7f50;
+}
+
+.footer-social .social-icons {
+    display: flex;
+    gap: 10px;
+}
+.footer-social .social-icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-social .social-icons a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-social .social-icons a:hover {
+    color: #ff7f50;
+}
+
+.footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: 20px;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+/* Responsive Design for Footer */
+@media screen and (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .footer-about,
+    .footer-links,
+    .footer-social {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer-about h3,
+    .footer-links h4,
+    .footer-social h4 {
+        font-size: 18px;
+    }
+}
+
+  
+  
