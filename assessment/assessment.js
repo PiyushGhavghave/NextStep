@@ -14,7 +14,7 @@ function prevQuestion(questionNumber) {
     prevQuestion.style.display = 'block';
 }
 
-document.getElementById('registerForm').onsubmit = function(event) {
+document.getElementById('assessmentForm').onsubmit = function(event) {
     event.preventDefault();  // Prevent the form from submitting the traditional way
 
     // Get the current origin and path dynamically
