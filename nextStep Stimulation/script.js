@@ -142,20 +142,20 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Mapping of simulation IDs to image paths
     const simulationImages = {
-        'software-developer': 'software-developerZ.png',
-        'graphic-designer': 'Graphic-DesigningZ.jpg',
-        'data-scientist': 'Data-ScienceZ.jpg',
-        'film-making':'film-makingZ.jpg',
-        'fashion-designing': 'fashion-designingZ.jpeg',
-        'fund-management': 'fund-managementZ.jpg',
-        'architecture': 'architectureZ.jpg',
-        'chartered-accountant': 'chartered-accountantZ.png',
-        'hospitality': 'hospitalityZ.jpg',
-        'law': 'lawZ.png',
-        'risk-management': 'risk-managementZ.jpeg',
-        'cyber-security':'cyber-securityZ.jpg',
-        'digital-marketer':'digital-marketingZ.png',
-        'project-manager':'project-managementZ.jpg'
+        'software-developer': '../assets/software-developerZ.png',
+        'graphic-designer': '../assets/Graphic-DesigningZ.jpg',
+        'data-scientist': '../assets/Data-ScienceZ.jpg',
+        'film-making':'../assets/film-makingZ.jpg',
+        'fashion-designing': '../assets/fashion-designingZ.jpeg',
+        'fund-management': '../assets/fund-managementZ.jpg',
+        'architecture': '../assets/architectureZ.jpg',
+        'chartered-accountant': '../assets/chartered-accountantZ.png',
+        'hospitality': '../assets/hospitalityZ.jpg',
+        'law': '../assets/lawZ.png',
+        'risk-management': '../assets/risk-managementZ.jpeg',
+        'cyber-security':'../assets/cyber-securityZ.jpg',
+        'digital-marketer':'../assets/digital-marketingZ.png',
+        'project-manager':'../assets/project-managementZ.jpg'
         // Add more simulations as needed
     };
 

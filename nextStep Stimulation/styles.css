@@ -6,7 +6,7 @@ body {
 
 header {
    
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url('header.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url('../assets/header.jpg');
     background-size: cover;
     background-position: center;
     color: white;
